@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="org.team7.sports.LoginActivity">
+    tools:context="org.team7.sports.org.team7.TakeMyPackage.LoginActivity">
 
     <include android:id="@+id/main_tool_bar"
         layout="@layout/app_bar_layout"

@@ -6,26 +6,14 @@
     android:visibility="visible">
 
     <android.support.design.widget.TabItem
-        android:id="@+id/tabItem"
+        android:id="@+id/RequestTab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:icon="@drawable/pager_message" />
+        android:text="@string/requestTab"/>
 
     <android.support.design.widget.TabItem
-        android:id="@+id/tabItem2"
+        android:id="@+id/AssignmentTab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:icon="@drawable/pager_game" />
-
-    <android.support.design.widget.TabItem
-        android:id="@+id/tabItem3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tab3" />
-
-    <android.support.design.widget.TabItem
-        android:id="@+id/tabItem4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tab4" />
-</android.support.design.widget.TabLayout>
+        android:text="@string/assignmentTab" />
+    </android.support.design.widget.TabLayout>

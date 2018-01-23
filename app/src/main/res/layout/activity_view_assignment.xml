@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.team7.sports.org.team7.TakeMyPackage.ViewAssignmentActivity">
+
+    <include
+        android:id="@+id/create_game_bar"
+        layout="@layout/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"></include>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/create_game_bar"
+        tools:context="org.team7.sports.org.team7.TakeMyPackage.ViewAssignmentActivity">
+
+        <TextView
+            android:id="@+id/package_name_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView14"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/textView14"
+            android:text="Item Name"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/address_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignBottom="@+id/textView16"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/textView16"
+            android:text="Delivery address"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/date_TV"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignBaseline="@+id/textView17"
+            android:layout_alignBottom="@+id/textView17"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/textView17"
+            android:text="Date"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/time_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignBaseline="@+id/textView7"
+            android:layout_alignBottom="@+id/textView7"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/textView7"
+            android:text="Delivery Time"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/requester_phone_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignBaseline="@+id/textView9"
+            android:layout_alignBottom="@+id/textView9"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/textView9"
+            android:text="Requester Contact"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/delivery_phone_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignBaseline="@+id/textView10"
+            android:layout_alignBottom="@+id/textView10"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/textView10"
+            android:text="Delivery Contact"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/remarks_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignBaseline="@+id/textView11"
+            android:layout_alignBottom="@+id/textView11"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/textView11"
+            android:text="Remarks"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="15dp"
+            android:text="Item:"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView14"
+            android:layout_below="@+id/textView14"
+            android:layout_marginTop="15dp"
+            android:text="Delivery Address:"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView16"
+            android:layout_below="@+id/textView16"
+            android:layout_marginTop="15dp"
+            android:text="Date:"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView17"
+            android:layout_below="@+id/date_TV"
+            android:layout_marginTop="15dp"
+            android:text="Delivery Time:"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView7"
+            android:layout_below="@+id/time_TV"
+            android:layout_marginTop="16dp"
+            android:text="Requester Contact:"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView9"
+            android:layout_below="@+id/requester_phone_TV"
+            android:layout_marginTop="16dp"
+            android:text="Delivery Contact:"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView10"
+            android:layout_below="@+id/delivery_phone_TV"
+            android:layout_marginTop="16dp"
+            android:text="Remarks:"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/accept_assignment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView11"
+            android:layout_marginTop="12dp"
+            android:layout_toStartOf="@+id/address_TV"
+            android:text="ACCEPT"
+            android:background="#0f0"
+            android:textColor="#f00"
+            tools:text="ACCEPT" />
+
+        <Button
+            android:id="@+id/reject_assignment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/accept_assignment"
+            android:layout_alignBottom="@+id/accept_assignment"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="23dp"
+            android:background="#f00"
+            android:textColor="#0f0"
+            android:text="REJECT"
+            tools:text="REJECT" />
+
+    </RelativeLayout>
+</RelativeLayout>

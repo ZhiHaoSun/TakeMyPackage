@@ -1,47 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-    Proudly developed by Team7 on October, 2017.
-
-    MMP""MM""YMM `7MM"""YMM        db      `7MMM.     ,MMF'
-    P'   MM   `7   MM    `7       ;MM:       MMMb    dPMM
-         MM        MM   d        ,V^MM.      M YM   ,M MM M******A'
-         MM        MMmmMM       ,M  `MM      M  Mb  M' MM Y     A'
-         MM        MM   Y  ,    AbmmmqMA     M  YM.P'  MM      A'
-         MM        MM     ,M   A'     VML    M  `YM'   MM     A'
-       .JMML.    .JMMmmmmMMM .AMA.   .AMMA..JML. `'  .JMML.  A'
-                                                            A'
-                                                           A'
--->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.team7.sports">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher"
+        android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="org.team7.TakeMyPackage.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".StartActivity" />
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity
-            android:name=".ChatActivity"
-            android:label="@string/title_activity_chat"
-            android:theme="@style/AppTheme" />
-        <activity android:name=".WeatherActivity"></activity>
-            android:theme="@style/AppTheme" />
-
-        <activity android:name=".ProfileActivity" />
-        <activity android:name=".ViewGameActivity" />
-        <activity android:name=".CreateGameActivity" />
+        <activity android:name="org.team7.TakeMyPackage.StartActivity" />
+        <activity android:name="org.team7.TakeMyPackage.RegisterActivity" />
+        <activity android:name="org.team7.TakeMyPackage.LoginActivity" />
+        <activity android:name="org.team7.TakeMyPackage.ViewAssignmentActivity" />
+        <activity android:name="org.team7.TakeMyPackage.CreateRequestActivity" />
+        <activity android:name="org.team7.TakeMyPackage.RequestDetailActivity" />
     </application>
 
 </manifest>

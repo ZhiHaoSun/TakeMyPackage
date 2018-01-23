@@ -1,9 +1,17 @@
 <resources>
-    <string name="app_name">Sports7</string>
+    <string name="app_name">TakeMyPackage</string>
     <string name="register">register</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
+    <string name="home_address">Home Address</string>
+    <string name="nric">NRIC Number</string>
     <string name="email">E-mail</string>
+    <string name="requestTab">Request</string>
+    <string name="assignmentTab">Tasks</string>
+    <string name="notificationTitle">New Package Request</string>
+    <string name="notificationBody">Item: %s\nTime: %s\nAddress: %s\nPhone:%s</string>
+    <string name="acceptNotificationTitle">Your request is accepted!</string>
+    <string name="acceptNotificationBody">Item: %s\nTime: %s\nAddress: %s\nPhone:%s</string>
     <string name="login">Login</string>
     <string name="register_failed">Failed to register</string>
     <string name="registering">Register new user</string>
@@ -12,7 +20,14 @@
     <string name="forecast">Forecast</string>
     <string name="temperature">Temperature</string>
 
+    <string name="smsMessage">Dear Deliveryman: I have appointed my friend to collect the package for me.\n
+    His phone number is %s \n
+        You can meet at %s \n
+        Meeting time is still %s \n
+    </string>
+
     <!-- TODO: Remove or change this placeholder text -->
+
     <string name="hello_blank_fragment">UNDER MAINTENANCE</string>
     <string name="title_activity_chat">ChatActivity</string>
     <string name="item">Item</string>

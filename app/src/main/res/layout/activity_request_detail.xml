@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.team7.sports.org.team7.TakeMyPackage.ViewAssignmentActivity">
+
+    <include
+        android:id="@+id/create_game_bar"
+        layout="@layout/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"></include>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/create_game_bar"
+        tools:context="org.team7.sports.org.team7.TakeMyPackage.RequestDetailActivity">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="15dp"
+            android:text="Item:"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/package_name_RD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView1"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/textView1"
+            android:text="Item Name"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="15dp"
+            android:text="Assigner Contact:"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/assigner_contact_RD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/textView2"
+            android:text="Assigner Contact"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="15dp"
+            android:text="Assigner Address:"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/assigner_address_RD"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignBaseline="@+id/textView3"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/textView3"
+            android:text="Assigner Address"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="15dp"
+            android:text="Delivery Time:"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/time_RD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignBaseline="@+id/textView4"
+            android:layout_alignBottom="@+id/textView4"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/textView4"
+            android:text="Delivery Time"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView4"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="16dp"
+            android:text="Remarks:"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/remarks_RD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignBaseline="@+id/textView5"
+            android:layout_alignBottom="@+id/textView5"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/textView5"
+            android:text="Remarks"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/accept_request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView5"
+            android:layout_marginTop="12dp"
+            android:layout_toStartOf="@+id/address_TV"
+            android:text="I Received"
+            android:background="#0f0"
+            android:textColor="#f00"
+            tools:text="I Received" />
+
+        <Button
+            android:id="@+id/reject_request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/accept_request"
+            android:layout_alignBottom="@+id/accept_request"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="23dp"
+            android:background="#f00"
+            android:textColor="#0f0"
+            android:text="Didn't get"
+            tools:text="Didn't get" />
+
+    </RelativeLayout>
+</RelativeLayout>
